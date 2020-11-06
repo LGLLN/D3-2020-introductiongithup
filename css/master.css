@@ -1,0 +1,111 @@
+header {
+  background: rgb(300,300,600);
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+/* STYLES POUR NAVIGATION */
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  background: rgb(255, 255, 255);
+  padding: 1em;
+
+}
+
+
+/* STYLES POUR NAVIGATION 01 */
+
+
+
+#section01{
+background: url('images/1.jpg')no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#section03{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#section01 h1{
+  color : rgb(255, 255, 255);
+  font-size: 12em;
+  text-align: center;
+
+}
+
+/*STYLES POUR SECTION 03 */
+#section04 {
+  text-align: center;
+  justify-content: center;
+  font-size: 40PX;
+
+}
+#section03 {
+  text-align: center;
+  justify-content: center;
+margin-bottom: 30px;
+line-height: 40px;
+}
+#section06{
+  display: left;
+  justify-content: right;
+  align-items: right;
+}
+
+
+
+#section02 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom:15px;
+  }
+#section05 {
+margin-top: 30px;
+margin-bottom:30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+  footer{
+    background: url('images/1.jpg')no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color : rgb(255, 255, 255);
+  font-size: 5em;
+  justify-content: center;
+
+}
